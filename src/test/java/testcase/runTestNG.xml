@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test">
+    <listeners>
+        <listener class-name="listener.ReportListener"></listener>
+    </listeners>
+
+    <test name="Sample Test">
+        <classes>
+            <class name="testcase.FullFlow_TC"/>
+        </classes>
+    </test>
+</suite>
